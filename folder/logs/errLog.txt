@@ -1,0 +1,15 @@
+20250113	20:20:37	eda94362-9289-4fa7-8ff8-9b9ea2fcbb8f	Error:Not allowed by CORS
+20250117	12:02:54	14d93854-8e9a-48f2-9baa-5ae16ca98ec3	TypeError:Cannot read properties of undefined (reading 'authorization')
+20250117	12:03:02	3f410fed-dbee-42b4-b60b-b95f31c3bc0d	TypeError:Cannot read properties of undefined (reading 'authorization')
+20250117	12:03:08	9eba0bd2-21af-4ed5-ac6e-db9964116762	TypeError:Cannot read properties of undefined (reading 'authorization')
+20250117	12:04:07	a34924dc-635b-4f7b-a40c-ce7a15013cb5	TypeError:Cannot read properties of undefined (reading 'authorization')
+20250117	12:05:02	358d4d08-af29-4f14-b41b-7d019bb253f5	TypeError:Cannot read properties of undefined (reading 'authorization')
+20250117	12:06:04	5a85e2f3-3154-47db-ab5c-b82ce2a957ec	TypeError:Cannot read properties of undefined (reading 'authorization')
+20250117	12:07:18	4305a934-e05f-4088-ba81-476623f5d7bf	TypeError:Cannot read properties of undefined (reading 'authorization')
+20250117	12:08:48	31246a9c-3347-4a52-a057-fcc1ba7ac87a	TypeError:Cannot read properties of undefined (reading 'authorization')
+20250117	12:11:08	41f83acb-a72f-4742-b13b-fe9b3a374b24	ReferenceError:sendStatus is not defined
+20250117	12:11:49	50dc1957-c699-468b-85a0-5accdd7d8569	ReferenceError:sendStatus is not defined
+20250117	12:39:46	cca4edb7-a10a-45ff-aac7-2f51c4dac6fa	TypeError:Cannot read properties of undefined (reading 'REFRESH_TOKEN_SECRET')
+20250117	12:42:36	b00292c1-4e16-4bf3-9ff4-ed788884938f	TypeError:Cannot read properties of undefined (reading 'REFRESH_TOKEN_SECRET')
+20250117	12:43:44	c5de685b-cbae-4db9-af3a-74638c5d708a	Error:"expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+20250125	12:37:28	20915a1f-7c49-470f-9e8d-16e5064833ee	SyntaxError:Expected property name or '}' in JSON at position 1

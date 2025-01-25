@@ -1,0 +1,18 @@
+What is a salt and why use it?
+
+Ans>>In the context of bcrypt, a salt is a random string added to the password before hashing it. The purpose of using a salt is to ensure that even if two users have the same password, their hashed password values will be different.
+
+How does the salt work?
+Randomness: When you use a salt, it introduces additional randomness to the hash. This prevents attackers from using precomputed tables (like rainbow tables) to reverse-engineer the hashed password. These tables store common password hashes for quick lookups, and using a unique salt for each password makes them ineffective.
+Security: The salt is combined with the password before hashing. This process makes the hashing much more secure because even if two users have the same password, the resulting hash will be different due to the different salts used.
+The 10 in bcrypt.hash(pwd, 10):
+The 10 is the salt rounds parameter, which specifies how many times the hashing algorithm will apply the salt and hash the password. This number affects how long it takes to compute the hash.
+
+Salt rounds determine the complexity of the hashing process. The higher the number, the more times the hashing function runs, and the harder it is to brute-force the password.
+However, the higher the number of rounds, the more computational resources (time and CPU) are required to compute the hash.
+Typically, a value of 10 is considered a good balance between security and performance for modern systems. Higher values (e.g., 12 or 14) provide more security but take longer to compute.
+
+Example to understand salting:
+Without salt: If two users have the same password, say "password123", their hashed password would look the same after hashing. An attacker could simply check one hash and guess the password for both users.
+
+With salt: Even if two users have the same password "password123", the salt ensures that their hashed passwords will be different. For example, User 1's hash might look like a1b2c3d4e5f6g7h8, and User 2's hash might look like z1y2x3w4v5u6t7s8, even though both used "password123". The salt is stored with the hash, so it can be used later during the verification process.
